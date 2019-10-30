@@ -61,8 +61,17 @@
     #author {
         font-style: italic;
     }
-    #highlight {
+    #citation {
         font-size: 110%;
+    }
+    #highlight {
+      background-color: black;
+      display: inline-block;
+      text-align: left;
+    }
+    h1 {
+      font-weight: 700;
+      color: white;
     }
     
     .soft {
@@ -76,7 +85,9 @@
     <div class="container">
         <div class="row">
             <div class="col-lg-4">
-                <h1 class="">Riccardo Massidda</h1>
+              <div id="highlight">
+                  <h1>Riccardo Massidda</h1>
+              </div>
                 <p class="lead">Computer scientist</p>
                 <ul class="list-unstyled">
                     <li><span class="fab fa-github"></span>&emsp;<a href="https://github.com/rmassidda">rmassidda</a></li>
@@ -88,7 +99,7 @@
             <div class="col-lg-6">
                 <!-- <canvas id="rand_canvas" ></canvas> -->
                 <div id="kindle">
-                    <p id="highlight"></p>
+                    <p id="citation"></p>
                     <p><span id="title"></span> by <span id="author"></span></p>
                     <p class="soft">highlighted on my Kindle on <span id="date"></span></p>
                 </div>
