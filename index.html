@@ -1,14 +1,13 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
+  <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta name="author" content="Riccardo Massidda">
 
     <link href="https://fonts.googleapis.com/css?family=Source+Serif+Pro:400,600,700" rel="stylesheet">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU"
-        crossorigin="anonymous">
+                                                                                          crossorigin="anonymous">
     <title>Riccardo Massidda</title>
 
     <!-- Bootstrap core CSS -->
@@ -17,46 +16,46 @@
     <!-- <script src="js/canvas.js" defer></script> -->
     <script src="js/kindle.js" defer></script>
     <style>
-    body{
-        font-family: 'Source Serif Pro', serif;
-    }
+body{
+  font-family: 'Source Serif Pro', serif;
+}
     .container{
-        background-color: white;
-        padding: 40px;
-        position:absolute;
-        width: 100%;
-        top: 5%;
-        left: 5%;
-        right: 5%;
-        width: 90%;
+      background-color: white;
+      padding: 40px;
+      position:absolute;
+      width: 100%;
+      top: 5%;
+      left: 5%;
+      right: 5%;
+      width: 90%;
     }
 
     @media(min-width:768px){
-        .container{
-            top: 10%;
-            left: 10%;
-            right: 10%;
-            width: 80%;
-        }
+      .container{
+        top: 10%;
+        left: 10%;
+        right: 10%;
+        width: 80%;
+      }
     }
     @media(min-width:992px){
-        .container{
-            top: 25%;
-            left: 15%;
-            right: 15%;
-            width: 70%;
-        }
+      .container{
+        top: 25%;
+        left: 15%;
+        right: 15%;
+        width: 70%;
+      }
     }
     a{
-        color: #24367e;
+      color: #24367e;
     }
     a:hover{
-        text-decoration: none;
+      text-decoration: none;
     }
     li{
-        margin:0 10px 10px 0;
-        vertical-align:top;
-        width: 100%;
+      margin:0 10px 10px 0;
+      vertical-align:top;
+      width: 100%;
     }
 
     #title {
@@ -64,10 +63,10 @@
       background-color: #cdeedd;
     }
     #author {
-        font-style: italic;
+      font-style: italic;
     }
     #citation {
-        font-size: 110%;
+      font-size: 110%;
     }
     #highlight {
       background-color: #fdee00;
@@ -79,39 +78,39 @@
       margin-top: -20px;
       margin-left: -2px;
     }
-    
+
     .soft {
-        color: rgba(50,50,50,0.3);
-        font-size: 90%;
+      color: rgba(50,50,50,0.3);
+      font-size: 90%;
     }
     </style>
-</head>
+  </head>
 
-<body>
+  <body>
     <div class="container">
-        <div class="row">
-            <div class="col-lg-4">
-              <div id="highlight">
-                  <h1>Riccardo Massidda</h1>
-              </div>
-                <p class="lead">Computer scientist</p>
-                <ul class="list-unstyled">
-                    <li><span class="fab fa-github"></span>&emsp;<a href="https://github.com/rmassidda">rmassidda</a></li>
-                    <li><span class="fab fa-linkedin"></span>&emsp;<a href="https://www.linkedin.com/in/riccardomassidda">linkedin</a></li>
-                    <li id="address"></li>
-                </ul>
-            </div>
-            <div class="col-lg-1"></div>
-            <div class="col-lg-6">
-                <!-- <canvas id="rand_canvas" ></canvas> -->
-                <div id="kindle">
-                    <p id="citation"></p>
-                    <p><span id="title"></span> by <span id="author"></span></p>
-                    <p class="soft">highlighted on my Kindle on <span id="date"></span></p>
-                </div>
-            </div>
+      <div class="row">
+        <div class="col-lg-4">
+          <div id="highlight">
+            <h1>Riccardo Massidda</h1>
+          </div>
+          <p class="lead">Computer scientist</p>
+          <ul class="list-unstyled">
+            <li><span class="fab fa-github"></span>&emsp;<a href="https://github.com/rmassidda">rmassidda</a></li>
+            <li><span class="fab fa-linkedin"></span>&emsp;<a href="https://www.linkedin.com/in/riccardomassidda">linkedin</a></li>
+            <li id="address"></li>
+          </ul>
         </div>
+        <div class="col-lg-1"></div>
+        <div class="col-lg-6">
+          <!-- <canvas id="rand_canvas" ></canvas> -->
+          <div id="kindle">
+            <p id="citation"></p>
+            <p><span id="title"></span> by <span id="author"></span></p>
+            <p class="soft">highlighted on my Kindle on <span id="date"></span></p>
+          </div>
+        </div>
+      </div>
     </div>
-</body>
+  </body>
 
 </html>
