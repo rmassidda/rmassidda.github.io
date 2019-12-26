@@ -40,18 +40,8 @@ li{
   width: 100%;
 }
 
-#title {
-  font-weight: bold;
-  background-color: #cdeedd;
-}
-#author {
-  font-style: italic;
-}
-#citation {
-  font-size: 110%;
-}
 #highlight {
-  background-color: #fdee00;
+  background-color: #cdeedd;
   display: inline-block;
   text-align: left;
 }
@@ -59,9 +49,4 @@ h1 {
   font-weight: 700;
   margin-top: -20px;
   margin-left: -2px;
-}
-
-.soft {
-  color: rgba(50,50,50,0.3);
-  font-size: 90%;
 }
