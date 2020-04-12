@@ -1,7 +1,7 @@
 var xhr = new XMLHttpRequest();
 
 xhr.onload = function () {
-	if (xhr.status >= 200 && xhr.status < 300) {
+	if (xhr.status >= 200 && xhr.status < 300 && xhr.response != "") {
     posts = xhr.response
     ul = document.getElementById('archive')
     /* When splitting by new line the last line is void */
@@ -23,7 +23,7 @@ xhr.onload = function () {
       ul.appendChild(li) 
     }
 	} else {
-    document.getElementById('archive').innerHTML = 'No posts :('
+    document.getElementById('archive').innerHTML = "No posts here, it's either writer's block or something went wrong."
 	}
 };
 
