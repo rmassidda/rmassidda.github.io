@@ -1,19 +1,57 @@
 body{
   font-family: 'Source Serif Pro', serif;
 }
+
 .container{
   background-color: white;
   padding: 40px;
-  position:absolute;
   width: 100%;
+}
+
+.home{
+  position:absolute;
   top: 5%;
   left: 5%;
   right: 5%;
   width: 90%;
 }
 
+.header {
+  margin-top: 30px;
+}
+
+.disclaimer {
+  margin-bottom: 15px;
+  opacity: 0.5;
+}
+
+h1,h2 {
+  margin-top: 20px;
+}
+
+pre.sourceCode {
+  background-color: rgba(0, 82, 255, 0.1);
+  padding: 10px;
+}
+
+.stdout {
+  background-color: rgba(49, 239, 0, 0.1);
+  padding: 10px;
+  margin-bottom: 15px;
+}
+
+.author {
+  background-color: rgba(255, 248, 144, 0.8);
+}
+
+#signature{
+  margin-top: 30px;
+  margin-bottom: 30px
+}
+
 @media(min-width:768px){
-  .container{
+  .home{
+    position:absolute;
     top: 10%;
     left: 10%;
     right: 10%;
@@ -21,7 +59,8 @@ body{
   }
 }
 @media(min-width:992px){
-  .container{
+  .home{
+    position:absolute;
     top: 25%;
     left: 15%;
     right: 15%;
@@ -40,13 +79,11 @@ li{
   width: 100%;
 }
 
-#highlight {
+.highlight {
   background-color: #cdeedd;
   display: inline-block;
   text-align: left;
-}
-h1 {
-  font-weight: 700;
   margin-top: -20px;
   margin-left: -2px;
+  font-weight: 700;
 }
