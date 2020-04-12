@@ -12,6 +12,10 @@ img{
   width: 100%;
 }
 
+.contacts{
+  margin-top: 30px;
+}
+
 .home{
   position:absolute;
   top: 5%;
