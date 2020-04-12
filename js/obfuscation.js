@@ -16,9 +16,11 @@ function encode(a) {
 };
 
 
-function printAddress(element){
+function printAddress(element,navelement){
     var string = "`T\\_gb-VbagTVg3e`Tff\\WWT!\\g";
-    element.innerHTML = '<span class="fas fa-envelope"></span>&emsp;<a href="' + decode(string) + '">' + decode(string).split(':')[1] + '</a>';
+    if (element != null)
+      element.innerHTML = '<span class="fas fa-envelope"></span>&emsp;<a href="' + decode(string) + '">' + decode(string).split(':')[1] + '</a>';
+    navelement.innerHTML = '<li class="nav-item"><a class="nav-link" href="'+decode(string)+'"><span class="fas fa-envelope"></span></a></li>'
 }
 
-printAddress(document.getElementById('address'));
+printAddress(document.getElementById('address'),document.getElementById('hidden_li'));
