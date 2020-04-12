@@ -2,6 +2,10 @@ body{
   font-family: 'Source Serif Pro', serif;
 }
 
+img{
+  max-width: 100%;
+}
+
 .container{
   background-color: white;
   padding: 40px;
