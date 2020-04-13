@@ -16,11 +16,13 @@ function encode(a) {
 };
 
 
-function printAddress(element,navelement){
+function printAddress(element,navelement,footelement){
     var string = "`T\\_gb-VbagTVg3e`Tff\\WWT!\\g";
     if (element != null)
       element.innerHTML = '<span class="fas fa-envelope"></span>&emsp;<a href="' + decode(string) + '">' + decode(string).split(':')[1] + '</a>';
     navelement.innerHTML = '<li class="nav-item"><a class="nav-link" href="'+decode(string)+'"><span class="fas fa-envelope"></span></a></li>'
+    if (footelement != null)
+      footelement.innerHTML = '<span id="footmail"><a href="' + decode(string) + '">' + decode(string).split(':')[1] + '</a></span>';
 }
 
-printAddress(document.getElementById('address'),document.getElementById('hidden_li'));
+printAddress(document.getElementById('address'),document.getElementById('hidden_li'),document.getElementById('footmail'));
