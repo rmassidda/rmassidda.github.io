@@ -13,33 +13,26 @@
     <script src="js/blog.js" defer></script>
   </head>
   <body>
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
-      <div class="collapse navbar-collapse" id="navbarSupportedContent">
-        <ul class="navbar-nav mr-auto">
-          <li class="nav-item active">
-            <a class="nav-link" href="../index.html">Home <span class="sr-only">(current)</span></a>
-          </li>
-        </ul>
-        <ul class="navbar-nav ml-auto">
-          <li class="nav-item"><a class="nav-link" href="https://github.com/rmassidda"><span class="fab fa-github"></span></a></li>
-          <li class="nav-item"><a class="nav-link" href="https://www.linkedin.com/in/riccardomassidda"><span class="fab fa-linkedin"></span></a></li>
-          <li id="hidden_li"></li>
-        </ul>
-      </div>
+    <nav class="navbar navbar-expand navbar-light">
+      <ul class="navbar-nav ml-auto">
+        <li class="nav-item"><a class="nav-link" href="https://github.com/rmassidda"><span class="fab fa-github"></span></a></li>
+        <li class="nav-item"><a class="nav-link" href="https://www.linkedin.com/in/riccardomassidda"><span class="fab fa-linkedin"></span></a></li>
+        <li id="hidden_li"></li>
+      </ul>
     </nav>
     <div class="container">
       <div class="row header">
         <div class="col-lg-1"></div>
-        <div class="col-lg-3">
+        <div class="col-lg-4">
           <h1 class="highlight title">Riccardo Massidda</h1>
           <ul class="list-unstyled contacts">
-            <li><span class="fab fa-github"></span>&emsp;<a href="https://github.com/rmassidda">rmassidda</a></li>
-            <li><span class="fab fa-linkedin"></span>&emsp;<a href="https://www.linkedin.com/in/riccardomassidda">linkedin</a></li>
-            <li id="address"></li>
-            <li><span class="fas fa-key"></span>&emsp;<a href="contact@rmassidda.it_pubkey.asc">GPG public key</a></li>
+            <li class="social"><span class="fab fa-github"></span>&emsp;<a href="https://github.com/rmassidda">rmassidda</a></li>
+            <li class="social"><span class="fab fa-linkedin"></span>&emsp;<a href="https://www.linkedin.com/in/riccardomassidda">linkedin</a></li>
+            <li class="social" id="address"></li>
+            <li class="social"><span class="fas fa-key"></span>&emsp;<a href="contact@rmassidda.it_pubkey.asc">GPG public key</a></li>
           </ul>
         </div>
-        <div class="col-lg-7">
+        <div class="col-lg-6">
           <p>Last posts from the blog:</p>
           <ul id="archive"></ul>
         </div>
