@@ -24,6 +24,9 @@ h1,h2 {
 
 p {
   margin-top: 20px;
+  line-height: 170%;
+  text-align: justify;
+  text-justify: inter-word;
 }
 
 a {
@@ -35,6 +38,8 @@ a:hover {
 }
 
 .highlight {
+  padding-left: 5px;
+  padding-right: 5px;
   background-color: #cdeedd;
   font-weight: 700;
 }
@@ -46,7 +51,7 @@ a:hover {
 /*
  * Dark mode
  * https://colorhunt.co/palette/136567
- * + #c3aed6
+ * + #f7d6bf
  */
 @media (prefers-color-scheme: dark) {
   body {
@@ -61,13 +66,13 @@ a:hover {
     color: #eeeeee;
   }
   a {
-    color: #c3aed6;
+    color: #cdeedd;
   }
   a:hover {
-    color: #c3aed6;
+    color: #cdeedd;
   }
   .highlight {
-    background-color: #c3aed6;
+    background-color: #cdeedd;
     color: #222831;
   }
   .fab, .fas {
