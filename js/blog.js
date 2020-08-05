@@ -1,7 +1,10 @@
 var xhr = new XMLHttpRequest();
 
 xhr.onload = function () {
-	if (xhr.status >= 200 && xhr.status < 300 && xhr.response != "") {
+  if (xhr.status >= 200 && xhr.status < 300 && xhr.response != "") {
+    section = document.getElementById('blog-section')
+    section.innerHTML  = '<p>Last posts from the blog:</p>'
+    section.innerHTML += '<ul id="archive"></ul>'
     posts = xhr.response
     ul = document.getElementById('archive')
     /* When splitting by new line the last line is void */
@@ -22,9 +25,10 @@ xhr.onload = function () {
       li.innerHTML = date.split(' ')[0] + ', ' + li.innerHTML
       ul.appendChild(li) 
     }
-	} else {
-    document.getElementById('archive').innerHTML = "No posts here, it's either writer's block or something went wrong."
-	}
+  }
+  else {
+    console.log("No posts from the blog, it's either writer's block or something went wrong.")
+  }
 };
 
 xhr.open('GET', 'index.csv');
