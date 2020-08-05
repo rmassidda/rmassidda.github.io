@@ -2,31 +2,8 @@
  * Specific style for blog posts,
  * this is still work in progress.
 */
-
-body{
-  font-family: 'Source Serif Pro', serif;
-}
-
 img{
   max-width: 100%;
-}
-
-.container{
-  background-color: white;
-  padding: 40px;
-  width: 100%;
-}
-
-.contacts{
-  margin-top: 30px;
-}
-
-.home{
-  position:absolute;
-  top: 5%;
-  left: 5%;
-  right: 5%;
-  width: 90%;
 }
 
 .header {
@@ -36,10 +13,6 @@ img{
 .disclaimer {
   margin-bottom: 15px;
   opacity: 0.7;
-}
-
-h1,h2 {
-  margin-top: 20px;
 }
 
 pre.sourceCode {
@@ -55,6 +28,8 @@ pre.sourceCode {
 
 .author {
   background-color: rgba(255, 248, 144, 0.8);
+  padding-left: 5px;
+  padding-right: 5px;
 }
 
 #signature{
@@ -62,46 +37,12 @@ pre.sourceCode {
   margin-bottom: 30px
 }
 
-@media(min-width:768px){
-  .home{
-    position:absolute;
-    top: 10%;
-    left: 10%;
-    right: 10%;
-    width: 80%;
+@media (prefers-color-scheme: dark) {
+  .author {
+    background-color: #f9f7d9;
+    color: #222831;
   }
-}
-@media(min-width:992px){
-  .home{
-    position:absolute;
-    top: 25%;
-    left: 15%;
-    right: 15%;
-    width: 70%;
+  .back {
+    color: #eeeeee;
   }
-}
-a{
-  color: #24367e;
-}
-a:hover{
-  text-decoration: none;
-}
-
-li.social{
-  margin:0 10px 10px 0;
-  vertical-align:top;
-  width: 100%;
-}
-
-.highlight {
-  background-color: #cdeedd;
-  display: inline-block;
-  text-align: left;
-  margin-top: -20px;
-  margin-left: -2px;
-  font-weight: 700;
-}
-
-.navbar-light {
-  background-color: rgba(255,255,255,0.8);
 }
