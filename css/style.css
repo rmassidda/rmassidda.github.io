@@ -75,6 +75,10 @@ a:hover {
     background-color: #cdeedd;
     color: #222831;
   }
+  .highlight:hover {
+    background-color: #cdeedd;
+    color: #222831;
+  }
   .fab, .fas {
     color: #eeeeee;
   }
