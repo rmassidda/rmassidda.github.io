@@ -30,7 +30,7 @@ Università di Pisa
     *Master's Degree in Computer Science (AI curriculum)*\hfill GPA 30/30
 
     The thesis studies the problem of meaningful units in neural networks for image classification, framing the issue in the context of the localist assumption from the symbolic-connectionist debate of the late 80s.
-    On top of this formalization, the thesis expands the Network Dissection interpretative approach by aligning neural units with members of the WordNet database.
+    On top of this formalization, the thesis expands the Network Dissection approach by aligning neural units with members of the WordNet database and by offering a probabilistic interpretation of the alignment.
 
 \smallskip
 
@@ -63,7 +63,7 @@ National Research Council (CNR)
 : \hfill February - June 2019\newline
     *Research internship*
 
-    The internship took place in Pisa at the Institute of Informatics and Telematics of the Italian National Research Council.
+    During the internship, I actively contributed to a bioinformatics research project for the Institute of Informatics and Telematics at the Italian National Research Council.
 
 \smallskip
 
@@ -71,7 +71,7 @@ SISAM Group
 : \hfill September 2015 - January 2016 \newline
     *Full-stack developer*
 
-    Design and implementation of a web application used to track small or medium sized container terminals.
+    Design and implementation of a web application used to track small or medium-sized container terminals.
 
 \smallskip
 
@@ -79,16 +79,16 @@ Italian Olympiad in Informatics
 : \hfill September 2014 \newline
     *National round participant*
 
-    The competition tests problem-solving skills in a programming setting and is reserved to high school students.
+    The competition tests high school students' problem-solving skills in a programming setting.
     The success in different local rounds determines the participation in the national phase.
 
 # Skills
 
 I am a **Python** developer with thorough knowledge and experience with scientific, deep learning and NLP frameworks such as **NumPy**, **PyTorch**, **NLTK**, **SpaCy**, **TensorFlow** and **Matplotlib**.
-I'm also familiar with **C/\CC{}** languages in the context of parallel processing and with web frontend technologies.
+I am also competent with **C/\CC{}** languages in the context of parallel processing and with web frontend technologies.
 
 I am an experienced **GNU/Linux** user, highly familiar with the **UNIX** toolkit, **shell scripting** and **Git** version control.
-This resume, as most of my writings and presentations, has been produced using \LaTeX.
+This resume has been produced using \LaTeX\ as most of my writings and presentations.
 
 I speak Italian as my mother tongue, and I am a fluent English speaker both in technical and social contexts.
 
