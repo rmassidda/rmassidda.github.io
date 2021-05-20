@@ -29,8 +29,10 @@ Università di Pisa
 :   \hfill Expected July 2021 \newline
     *Master's Degree in Computer Science (AI curriculum)*\hfill GPA 30/30
 
-    The thesis studies the problem of meaningful units in neural networks for image classification, framing the issue in the context of the localist assumption from the symbolic-connectionist debate of the late 80s.
-    On top of this formalization, the thesis expands the Network Dissection approach by aligning neural units with members of the WordNet database and by offering a probabilistic interpretation of the alignment.
+    In the context of neural networks for image classifcation, existing techniques can analyze the correlation between units activations and the presence of certain visual concepts in the input.
+    Building on previous methods, the thesis introduces and discusses new metrics to estimate semantic alignment.
+    Furthermore, by considering visual concepts as members of the WordNet semantical network, the proposed approach improves the quality of the alignment and enables the clustering of units into semantically coherent and architecturally connected circuits.
+    Finally, circuits are experimentally evaluated, highlighting how they select units critical for the accuracy of semantically related tasks.
 
 \smallskip
 
@@ -73,7 +75,7 @@ SISAM Group
 
     Design and implementation of a web application used to track small or medium-sized container terminals.
 
-\smallskip
+\newpage
 
 Italian Olympiad in Informatics
 : \hfill September 2014 \newline
