@@ -64,7 +64,7 @@ National Research Council (CNR)
 : \hfill February - June 2019\newline
     *Research internship*
 
-    During the internship, I actively contributed to a bioinformatics research project for the Institute of Informatics and Telematics.
+    During the internship, I actively contributed to a bioinformatic research project within the Institute of Informatics and Telematics (IIT).
 
 \smallskip
 
