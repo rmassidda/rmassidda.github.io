@@ -29,10 +29,9 @@ Università di Pisa
 :   \hfill Expected July 2021 \newline
     *Master's Degree in Computer Science (AI curriculum)*\hfill GPA 30/30
 
-    In the context of neural networks for image classifcation, existing techniques can analyze the correlation between units activations and the presence of certain visual concepts in the input.
-    Building on previous methods, the thesis introduces and discusses new metrics to estimate semantic alignment.
-    Furthermore, by considering visual concepts as members of the WordNet semantical network, the proposed approach improves the quality of the alignment and enables the clustering of units into semantically coherent and architecturally connected circuits.
-    Finally, circuits are experimentally evaluated, highlighting how they select units critical for the accuracy of semantically related tasks.
+    Existing techniques are able to analyze the correlation between units in Convolutional Neural Networks for image classification and the presence of certain visual concepts in the input.
+    Building on previous methods and formalizing visual concepts in the context of a referential theory of meaning, this work introduces and validates two metrics to estimate semantic alignment.
+    Furthermore, by inscribing visual concepts within WordNet, the proposed approach improves the quality of the alignment and enables the clustering of units into semantically coherent and architecturally connected subgraphs.
 
 \smallskip
 
@@ -49,7 +48,7 @@ Università di Pisa
 : \hfill October - December 2020\newline
     *Tutor for undergraduate students*
 
-    During weekly meetings, I assisted Computer Science undergraduate students by answering their theoretical questions and aiding them with their assignments.
+    During weekly meetings, I assisted computer science undergraduate students by answering their theoretical questions and aiding them with their assignments.
 
 \smallskip
 
@@ -65,7 +64,7 @@ National Research Council (CNR)
 : \hfill February - June 2019\newline
     *Research internship*
 
-    During the internship, I actively contributed to a bioinformatics research project for the Institute of Informatics and Telematics at the Italian National Research Council.
+    During the internship, I actively contributed to a bioinformatics research project for the Institute of Informatics and Telematics.
 
 \smallskip
 
@@ -87,12 +86,11 @@ Italian Olympiad in Informatics
 # Skills
 
 I am a **Python** developer with thorough knowledge and experience with scientific, deep learning and NLP frameworks such as **NumPy**, **PyTorch**, **NLTK**, **SpaCy**, **TensorFlow** and **Matplotlib**.
-I am also competent with **C/\CC{}** languages in the context of parallel processing and with web frontend technologies.
+I am also competent with **C/\CC{}** languages in the context of parallel processing.
 
-I am an experienced **GNU/Linux** user, highly familiar with the **UNIX** toolkit, **shell scripting** and **Git** version control.
-This resume has been produced using \LaTeX\ as most of my writings and presentations.
+I am an experienced **GNU/Linux** user, highly familiar with **shell scripting**, **Git** version control, \textbf{\LaTeX}\ and the **UNIX** toolkit.
 
-I speak Italian as my mother tongue, and I am a fluent English speaker both in technical and social contexts.
+I speak Italian as my mother tongue, and I am a fluent English speaker in technical and social contexts.
 
 # Publications
 
