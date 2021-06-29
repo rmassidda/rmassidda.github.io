@@ -29,9 +29,10 @@ Università di Pisa
 :   \hfill Expected July 2021 \newline
     *Master's Degree in Computer Science (AI curriculum)*\hfill GPA 30/30
 
-    Existing techniques are able to analyze the correlation between units in Convolutional Neural Networks for image classification and the presence of certain visual concepts in the input.
+    Existing techniques can analyze the correlation between units in convolutional neural networks for image classification and visual concepts in the input.
     Building on previous methods and formalizing visual concepts in the context of a referential theory of meaning, this work introduces and validates two metrics to estimate semantic alignment.
-    Furthermore, by inscribing visual concepts within WordNet, the proposed approach improves the quality of the alignment and enables the clustering of units into semantically coherent and architecturally connected subgraphs.
+    Furthermore, by relating visual concepts to WordNet synsets, the proposed approach improves the alignment quality.
+    Consequently, semantic alignment enables the clustering of units that are architecturally connected and semantically coherent.
 
 \smallskip
 
@@ -80,7 +81,7 @@ Italian Olympiad in Informatics
 : \hfill September 2014 \newline
     *National round participant*
 
-    The competition tests high school students' problem-solving skills in a programming setting.
+    The competition tests high school students for their problem-solving skills in a programming setting.
     The success in different local rounds determines the participation in the national phase.
 
 # Skills
