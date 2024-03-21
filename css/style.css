@@ -1,0 +1,25 @@
+body {
+  background-color: #fafafa;
+}
+
+.container {
+  margin-top: 100px;
+}
+
+.emoji {
+  margin-right: 5px;
+}
+
+@media only screen and (min-width : 576px) {
+    .container {
+      max-width: 500px;
+    }
+}
+
+@media only screen and (max-width : 576px) {
+    .container {
+      margin-left: 5%;
+      margin-right: 5%;
+      max-width: 90%;
+    }
+}
